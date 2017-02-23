@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace LogAn.UnitTests
+namespace Chapter2.LogAn.UnitTests
 {
     [TestFixture]
     public class LogAnalyzerTests

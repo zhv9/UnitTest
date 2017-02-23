@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogAn
+namespace Chapter2.LogAn
 {
     public class LogAnalyzer
     {

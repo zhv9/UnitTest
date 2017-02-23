@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E6B79C2-DD57-4144-B50F-77FC07F7409E}</ProjectGuid>
+    <ProjectGuid>{BF197D25-93E1-4279-AC8F-900BCAA15184}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LogAn.UnitTests</RootNamespace>
-    <AssemblyName>LogAn.UnitTests</AssemblyName>
+    <RootNamespace>LogAn</RootNamespace>
+    <AssemblyName>LogAn</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,21 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LogAnalyzerTests.cs" />
+    <Compile Include="LogAnalyzer.cs" />
+    <Compile Include="LogAnalyzerConstructorInject.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LogAn\LogAn.csproj">
-      <Project>{e1ae5b8d-1ab2-4296-b23e-ffe4833c5169}</Project>
-      <Name>LogAn</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
