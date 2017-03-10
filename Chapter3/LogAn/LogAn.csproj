@@ -51,6 +51,8 @@
     <Compile Include="LogAnalyzer.cs" />
     <Compile Include="LogAnalyzerConstructorInject.cs" />
     <Compile Include="LogAnalyzerConstructorInjectTests.cs" />
+    <Compile Include="LogAnalyzerFactoryInject.cs" />
+    <Compile Include="LogAnalyzerFactoryInjectTests.cs" />
     <Compile Include="LogAnalyzerPropertyInject.cs" />
     <Compile Include="LogAnalyzerPropertyInjectTests.cs" />
     <Compile Include="Program.cs" />

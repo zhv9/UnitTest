@@ -25,10 +25,13 @@ namespace LogAn
         private IExtensionManager manager;
         public LogAnalyzerPropertyInject()
         {
+            //调用类的时候构造，如果不使用下面的属性，则这个起作用。
+            //这样就做到了使用属性是可选的，在不用属性的情况下正常使用。
             manager = new FileExtensionManager();
         }
         public IExtensionManager ExtensionManager
         {
+            //在使用属性时，就可以把上面构造的FileExtensionManager() 覆盖掉了。
             get { return manager; }
             set { manager = value; }
         }
