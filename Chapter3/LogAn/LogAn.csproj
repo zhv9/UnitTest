@@ -55,6 +55,8 @@
     <Compile Include="LogAnalyzerFactoryInjectTests.cs" />
     <Compile Include="LogAnalyzerPropertyInject.cs" />
     <Compile Include="LogAnalyzerPropertyInjectTests.cs" />
+    <Compile Include="LogAnalyzerVirtualFactory.cs" />
+    <Compile Include="LogAnalyzerVirtualFactoryTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
