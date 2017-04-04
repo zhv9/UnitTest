@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter1", "Chapter1", "{07F1BFA4-FC4D-406D-B342-E10ABF373168}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAn", "Chapter3\LogAn\LogAn.csproj", "{BF197D25-93E1-4279-AC8F-900BCAA15184}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAn.UnitTests", "Chapter2\LogAn.UnitTests\LogAn.UnitTests.csproj", "{2FCB56EC-D95B-47EA-82B8-12D9F15E7CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter4", "Chapter4", "{A3077549-06FA-48B7-9B17-E4F5AA693FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer", "Chapter4\LogAnalyzer\LogAnalyzer.csproj", "{DFB60E1A-92FA-4540-99F5-22E6A334C68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzerAll", "Chapter4\LogAnalyzerAll\LogAnalyzerAll.csproj", "{A54A8BAF-42FB-4FB6-9D24-DCA600B797D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,14 @@ Global
 		{2FCB56EC-D95B-47EA-82B8-12D9F15E7CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCB56EC-D95B-47EA-82B8-12D9F15E7CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCB56EC-D95B-47EA-82B8-12D9F15E7CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB60E1A-92FA-4540-99F5-22E6A334C68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB60E1A-92FA-4540-99F5-22E6A334C68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB60E1A-92FA-4540-99F5-22E6A334C68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB60E1A-92FA-4540-99F5-22E6A334C68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54A8BAF-42FB-4FB6-9D24-DCA600B797D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54A8BAF-42FB-4FB6-9D24-DCA600B797D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54A8BAF-42FB-4FB6-9D24-DCA600B797D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54A8BAF-42FB-4FB6-9D24-DCA600B797D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +62,7 @@ Global
 		{E1AE5B8D-1AB2-4296-B23E-FFE4833C5169} = {15A06218-E64D-4B45-AC25-6BFE9EE284F6}
 		{BF197D25-93E1-4279-AC8F-900BCAA15184} = {8B100E80-2F60-4D57-B653-D42B4E78305B}
 		{2FCB56EC-D95B-47EA-82B8-12D9F15E7CA7} = {15A06218-E64D-4B45-AC25-6BFE9EE284F6}
+		{DFB60E1A-92FA-4540-99F5-22E6A334C68F} = {A3077549-06FA-48B7-9B17-E4F5AA693FAA}
+		{A54A8BAF-42FB-4FB6-9D24-DCA600B797D7} = {A3077549-06FA-48B7-9B17-E4F5AA693FAA}
 	EndGlobalSection
 EndGlobal
