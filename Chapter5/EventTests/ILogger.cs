@@ -1,4 +1,4 @@
-﻿namespace LogAnalyzerUseNSubstitute
+﻿namespace EventTests
 {
     public interface ILogger
     {

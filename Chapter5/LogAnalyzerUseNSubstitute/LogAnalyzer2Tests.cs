@@ -10,7 +10,7 @@ namespace LogAnalyzerUseNSubstitute
 {
     //如果日志抛出异常，要通知WebService
     [TestFixture]
-    public class LogAnalyzer2Test
+    public class LogAnalyzer2Tests
     {
         //先进行手工模拟对象测试
         [Test]
@@ -54,6 +54,7 @@ namespace LogAnalyzerUseNSubstitute
         }
     }
 
+    //使用手工测试的话，就要编写伪对象FakeWebService和FakeLogger2
     public class FakeWebService : IWebService
     {
         public string MessageToWebService;

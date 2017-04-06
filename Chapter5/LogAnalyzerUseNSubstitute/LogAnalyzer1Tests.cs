@@ -10,7 +10,7 @@ using NUnit.Framework;
 namespace LogAnalyzerUseNSubstitute
 {
     [TestFixture]
-    public class LogAnalyzerTests
+    public class LogAnalyzer1Tests
     {
         //使用手工伪对象进行测试
         [Test]

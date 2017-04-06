@@ -33,7 +33,7 @@ namespace LogAnalyzerAll
             //通过创建EmailInfo对象，把要检验的三个属性都赋给它，就可以只用一个断言了(实际上不可以简单的使用Asert.AreEqual()来对两个对象作比较)
         }
 
-        //
+        //使用比较对象的方式代替比较三个参数的方式(实际上得要重写Equals方法才行)
         [Test]
         public void Analyze_WebServiceThrow_SendsEmailUseEmailInfo()
         {
